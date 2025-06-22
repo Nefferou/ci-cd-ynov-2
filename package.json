@@ -1,6 +1,6 @@
 {
   "name": "ci-cd-ynov-julien-fertilati",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "private": false,
   "homepage": "https://nefferou.github.io/ci-cd-ynov-2/",
   "dependencies": {
