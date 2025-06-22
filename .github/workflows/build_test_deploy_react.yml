@@ -71,7 +71,7 @@ jobs:
       - name: Check if NPM package version has been updated
         run: |
           echo "Récupération de la version publiée sur npm..."
-          PUBLISHED_VERSION=$(npm view ci-cd-ynov-yves-estrada version || echo "0.0.0")
+          PUBLISHED_VERSION=$(npm view ci-cd-ynov-julien-fertilati version || echo "0.0.0")
           echo "Version publiée : $PUBLISHED_VERSION"
 
           echo "Récupération de la version locale du package..."
