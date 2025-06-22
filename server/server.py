@@ -20,7 +20,7 @@ class Login(BaseModel):
 app = FastAPI()
 origins = [
     "http://localhost:3000",
-    "https://arseid.github.io"
+    "https://nefferou.github.io"
 ]
 
 app.add_middleware(
